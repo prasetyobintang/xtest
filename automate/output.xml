@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-06-18T16:19:47.355642" rpa="false" schemaversion="5">
+<suite id="s1" name="Automatest" source="C:\Users\Prasetyo Bintang\xtest\automate\automatest.robot">
+<test id="s1-t1" name="Kyc Function" line="27">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:47.481270" level="INFO">Opening browser 'chrome' to base url 'https://beta.pintarinaja.co.id/profile/kyc'.</msg>
+<arg>${baseURL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-06-18T16:19:47.481270" elapsed="1.680842"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-06-18T16:19:49.162112" elapsed="0.027782"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:49.190890" level="INFO">Typing text 'ref23' into text field 'xpath=//*[@id="login"]'.</msg>
+<arg>xpath=//*[@id="login"]</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:49.189894" elapsed="0.186809"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:49.734661" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20username.png"&gt;&lt;img src="061824Result/Input%20username.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input username.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:49.376703" elapsed="0.357958"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:49.734661" level="INFO">Typing text 'a' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:49.734661" elapsed="0.060733"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:50.050960" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20password.png"&gt;&lt;img src="061824Result/Input%20password.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input password.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:49.795394" elapsed="0.255566"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:50.052019" level="INFO">Clicking button 'xpath=//*[@id="__next"]/div/div[1]/main/div/div/div/form/div[3]/div/div/div/div[2]/button'.</msg>
+<arg>xpath=//*[@id="__next"]/div/div[1]/main/div/div/div/form/div[3]/div/div/div/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:50.052019" elapsed="0.042337"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:50.411865" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Click%20Sign%20in%20button.png"&gt;&lt;img src="061824Result/Click%20Sign%20in%20button.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Click Sign in button.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:50.094356" elapsed="0.317509"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="homeWrapper"]/nav/div[2]/div[2]/div/div[1]</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:50.411865" elapsed="0.358956"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:50.770821" level="INFO">Clicking element 'xpath=//*[@id="homeWrapper"]/nav/div[2]/div[2]/div/div[1]'.</msg>
+<arg>xpath=//*[@id="homeWrapper"]/nav/div[2]/div[2]/div/div[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:50.770821" elapsed="0.069991"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:51.136499" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Click%20Profile.png"&gt;&lt;img src="061824Result/Click%20Profile.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Click Profile.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:50.840812" elapsed="0.296679"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='dropdownProfile']/ul/li[4]</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:51.138483" elapsed="0.030224"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:51.169702" level="INFO">Clicking element 'xpath=//div[@id='dropdownProfile']/ul/li[4]'.</msg>
+<arg>xpath=//div[@id='dropdownProfile']/ul/li[4]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:51.169702" elapsed="0.035643"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:51.393173" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Profile%20Menu.png"&gt;&lt;img src="061824Result/Choose%20Profile%20Menu.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Profile Menu.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:51.205345" elapsed="0.187828"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:51.818458" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Profile%20Menu2.png"&gt;&lt;img src="061824Result/Choose%20Profile%20Menu2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Profile Menu2.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:51.393173" elapsed="0.425285"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='contentWrapper']/div/div/div/ul/li[2]/span/a</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:51.819452" elapsed="0.016698"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:51.842838" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div/div/ul/li[2]/span/a'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div/div/ul/li[2]/span/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:51.842838" elapsed="0.028361"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:52.232415" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20kyc%20form.png"&gt;&lt;img src="061824Result/Choose%20kyc%20form.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose kyc form.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:51.871779" elapsed="0.360636"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[2]/div/label/span</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.234393" elapsed="0.043872"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:52.278265" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[2]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[2]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.278265" elapsed="0.127670"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:52.616733" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Identity%20Type.png"&gt;&lt;img src="061824Result/Identity%20Type.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Identity Type.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.405935" elapsed="0.210798"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='react-select-2-option-0']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.616733" elapsed="0.011945"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:52.628678" level="INFO">Clicking element 'xpath=//div[@id='react-select-2-option-0']'.</msg>
+<arg>xpath=//div[@id='react-select-2-option-0']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.628678" elapsed="0.032537"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:52.806875" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Identity%20Type2.png"&gt;&lt;img src="061824Result/Identity%20Type2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Identity Type2.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.662267" elapsed="0.144608"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[3]/div/label/span</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.807873" elapsed="0.019407"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:52.828304" level="INFO">Typing text '12345678' into text field 'xpath=//input[@id='identity_number']'.</msg>
+<arg>xpath=//input[@id='identity_number']</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.827280" elapsed="0.084008"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:53.085951" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Identity%20number.png"&gt;&lt;img src="061824Result/Input%20Identity%20number.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Identity number.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:52.911288" elapsed="0.174663"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[6]/div[2]/div/div/div/div/div/div</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.094010" elapsed="0.091940"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:53.185950" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[6]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[6]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.185950" elapsed="0.106830"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:53.495735" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Occupation.png"&gt;&lt;img src="061824Result/Choose%20Occupation.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Occupation.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.293853" elapsed="0.201882"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='react-select-5-option-0']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.495735" elapsed="0.064088"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:53.562271" level="INFO">Clicking element 'xpath=//div[@id='react-select-5-option-0']'.</msg>
+<arg>xpath=//div[@id='react-select-5-option-0']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.561049" elapsed="0.059194"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:53.725898" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Occupation2.png"&gt;&lt;img src="061824Result/Choose%20Occupation2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Occupation2.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.621278" elapsed="0.104620"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//input[@id='income_source']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.735885" elapsed="0.009741"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:53.745626" level="INFO">Typing text '123456789' into text field 'xpath=//input[@id='income_source']'.</msg>
+<arg>xpath=//input[@id='income_source']</arg>
+<arg>123456789</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.745626" elapsed="0.080667"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:53.983436" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Main%20income%20source.png"&gt;&lt;img src="061824Result/Input%20Main%20income%20source.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Main income source.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.828358" elapsed="0.155078"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//input[@id='react-aria-21-7']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:53.985812" elapsed="0.040498"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:54.029311" level="INFO">Typing text '123456789' into text field 'xpath=//input[@id='react-aria-21-7']'.</msg>
+<arg>xpath=//input[@id='react-aria-21-7']</arg>
+<arg>123456789</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.028317" elapsed="0.142371"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:54.315999" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Monthly%20income.png"&gt;&lt;img src="061824Result/Input%20Monthly%20income.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Monthly income.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.177572" elapsed="0.138427"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[9]/div[2]/div/div/div/div/div/div</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.315999" elapsed="0.049903"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:54.365902" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[9]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[9]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.365902" elapsed="0.084624"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:54.582662" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Investment%20exp.png"&gt;&lt;img src="061824Result/Choose%20Investment%20exp.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Investment exp.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.450526" elapsed="0.135192"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='react-select-3-option-1']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.585918" elapsed="0.041091"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:54.630004" level="INFO">Clicking element 'xpath=//div[@id='react-select-3-option-1']'.</msg>
+<arg>xpath=//div[@id='react-select-3-option-1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.629097" elapsed="0.077002"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:54.862511" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Investment%20exp2.png"&gt;&lt;img src="061824Result/Choose%20Investment%20exp2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Investment exp2.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.707127" elapsed="0.155384"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//textarea[@id='investment_experience_description']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.864499" elapsed="0.056120"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:54.920619" level="INFO">Typing text 'test12345' into text field 'xpath=//textarea[@id='investment_experience_description']'.</msg>
+<arg>xpath=//textarea[@id='investment_experience_description']</arg>
+<arg>test12345</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:54.920619" elapsed="0.159065"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.236096" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Investment%20goals.png"&gt;&lt;img src="061824Result/Input%20Investment%20goals.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Investment goals.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.080669" elapsed="0.155427"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.236096" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[11]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[11]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.236096" elapsed="0.073856"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='react-select-4-option-1']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.309952" elapsed="0.025831"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.335783" level="INFO">Clicking element 'xpath=//div[@id='react-select-4-option-1']'.</msg>
+<arg>xpath=//div[@id='react-select-4-option-1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.335783" elapsed="0.108541"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.616058" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Type%20of%20Risk.png"&gt;&lt;img src="061824Result/Choose%20Type%20of%20Risk.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Type of Risk.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.445949" elapsed="0.170109"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.616058" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[12]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[12]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.616058" elapsed="0.032909"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='react-select-6-option-1']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.648967" elapsed="0.036811"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.685778" level="INFO">Clicking element 'xpath=//div[@id='react-select-6-option-1']'.</msg>
+<arg>xpath=//div[@id='react-select-6-option-1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.685778" elapsed="0.143291"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.977296" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Yearly%20income.png"&gt;&lt;img src="061824Result/Choose%20Yearly%20income.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Yearly income.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.829069" elapsed="0.148227"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:55.978352" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[13]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[13]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:55.978352" elapsed="0.039059"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='react-select-7-option-3']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.017411" elapsed="0.049524"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.066935" level="INFO">Clicking element 'xpath=//div[@id='react-select-7-option-3']'.</msg>
+<arg>xpath=//div[@id='react-select-7-option-3']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.066935" elapsed="0.127044"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.326046" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20NJOP%20value.png"&gt;&lt;img src="061824Result/Choose%20NJOP%20value.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose NJOP value.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.195582" elapsed="0.130464"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.326046" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[14]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[14]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.326046" elapsed="0.037874"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[14]/div[2]/div/div/div/div/div/div</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.365422" elapsed="0.020589"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.386011" level="INFO">Clicking element 'xpath=//div[@id='react-select-8-option-1']'.</msg>
+<arg>xpath=//div[@id='react-select-8-option-1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.386011" elapsed="0.102407"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.657188" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Bank%20deposit.png"&gt;&lt;img src="061824Result/Choose%20Bank%20deposit.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Bank deposit.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.489123" elapsed="0.168065"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.658501" level="INFO">Clicking element 'xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[15]/div[2]/div/div/div/div/div/div'.</msg>
+<arg>xpath=//div[@id='contentWrapper']/div/div[2]/div/div[2]/div/div[2]/div/form/div[15]/div[2]/div/div/div/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.658501" elapsed="0.042941"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//div[@id='react-select-9-option-2']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.701442" elapsed="0.031857"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.736047" level="INFO">Clicking element 'xpath=//div[@id='react-select-9-option-2']'.</msg>
+<arg>xpath=//div[@id='react-select-9-option-2']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.733299" elapsed="0.100225"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.975985" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Choose%20Total%20assets.png"&gt;&lt;img src="061824Result/Choose%20Total%20assets.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Choose Total assets.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.833524" elapsed="0.142461"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//input[@id='house_location']</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.975985" elapsed="0.023105"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:56.999090" level="INFO">Typing text '1234567test' into text field 'xpath=//input[@id='house_location']'.</msg>
+<arg>xpath=//input[@id='house_location']</arg>
+<arg>1234567test</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:56.999090" elapsed="0.117825"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:57.285815" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20House%20assets%20location.png"&gt;&lt;img src="061824Result/Input%20House%20assets%20location.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input House assets location.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:57.118214" elapsed="0.167601"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:57.285815" level="INFO">Typing text 'country' into text field 'xpath=//input[@id='country']'.</msg>
+<arg>xpath=//input[@id='country']</arg>
+<arg>country</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:57.285815" elapsed="0.156386"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:57.635724" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Country.png"&gt;&lt;img src="061824Result/Input%20Country.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Country.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:57.444216" elapsed="0.191508"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:57.635724" level="INFO">Typing text 'city' into text field 'xpath=//input[@id='city']'.</msg>
+<arg>xpath=//input[@id='city']</arg>
+<arg>city</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:57.635724" elapsed="0.156941"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:57.969919" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20City.png"&gt;&lt;img src="061824Result/Input%20City.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input City.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:57.796229" elapsed="0.173690"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:57.969919" level="INFO">Typing text 'province' into text field 'xpath=//input[@id='province']'.</msg>
+<arg>xpath=//input[@id='province']</arg>
+<arg>province</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:57.969919" elapsed="0.176017"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:58.306054" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Province.png"&gt;&lt;img src="061824Result/Input%20Province.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Province.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:58.145936" elapsed="0.160118"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:58.306054" level="INFO">Typing text 'district' into text field 'xpath=//input[@id='district']'.</msg>
+<arg>xpath=//input[@id='district']</arg>
+<arg>district</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:58.306054" elapsed="0.197616"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:58.656217" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20District.png"&gt;&lt;img src="061824Result/Input%20District.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input District.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:58.503670" elapsed="0.152547"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:58.657596" level="INFO">Typing text 'village' into text field 'xpath=//input[@id='village']'.</msg>
+<arg>xpath=//input[@id='village']</arg>
+<arg>village</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:58.657596" elapsed="0.182312"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:58.986091" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Village.png"&gt;&lt;img src="061824Result/Input%20Village.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Village.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:58.840803" elapsed="0.145288"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:58.987061" level="INFO">Typing text 'address' into text field 'xpath=//input[@id='address']'.</msg>
+<arg>xpath=//input[@id='address']</arg>
+<arg>address</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:58.987061" elapsed="0.176987"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:59.305855" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Address.png"&gt;&lt;img src="061824Result/Input%20Address.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Address.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:59.165619" elapsed="0.140236"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:59.308399" level="INFO">Typing text 'postal' into text field 'xpath=//input[@id='postal_code']'.</msg>
+<arg>xpath=//input[@id='postal_code']</arg>
+<arg>postal</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:59.305855" elapsed="0.167366"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:59.656011" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Input%20Postal%20code.png"&gt;&lt;img src="061824Result/Input%20Postal%20code.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Input Postal code.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:59.474240" elapsed="0.181771"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:59.658593" level="INFO">Clicking element 'xpath=//button[@type='submit']'.</msg>
+<arg>xpath=//button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-18T16:19:59.658593" elapsed="0.086934"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-06-18T16:19:59.915466" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="061824Result/Click%20Submit%20button.png"&gt;&lt;img src="061824Result/Click%20Submit%20button.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${capture}/061824Result/Click Submit button.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-06-18T16:19:59.745527" elapsed="0.169939"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-18T16:20:01.915667" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-18T16:19:59.915466" elapsed="2.000201"/>
+</kw>
+<status status="PASS" start="2024-06-18T16:19:47.481270" elapsed="14.434397"/>
+</test>
+<status status="PASS" start="2024-06-18T16:19:47.355642" elapsed="14.560025"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Automatest">Automatest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
